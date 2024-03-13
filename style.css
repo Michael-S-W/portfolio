@@ -14,12 +14,11 @@
 
 body {
   background-color: rgb(44, 44, 44);
-  padding: 10px 20px;
 }
 .container {
   max-width: 1200px;
   border-radius: 10px;
-  margin: 0px auto;
+  margin: 20px;
   padding: 20px;
   background-color: rgb(33, 33, 33);
   box-shadow: 0px 0px 5px #03e9f4, 0px 0px 10px #03e9f4;
@@ -51,29 +50,14 @@ label {
   border: 1.5px solid var(--main);
   border-radius: 7px;
 }
-/* #home + label {
-  animation: blink 2s infinite alternate;
-}
-#about + label {
-  animation: blink 1.2s infinite alternate;
-}
-#experiance + label {
-  animation: blink 4s infinite;
-}
-#projects + label {
-  animation: blink 3s infinite alternate-reverse;
-}
-#contact + label {
-  animation: blink 1.5s infinite alternate-reverse;
-} */
 
 input:checked + label {
-  animation: pulsate 2s linear infinite alternate-reverse;
+  animation: pulsate 1.5s linear infinite alternate-reverse;
   background-color: var(--main);
   color: #050801;
   box-shadow: 0px 0px 4px var(--main), 0px 0px 4px var(--main),
     0px 0px 8px var(--main), 0px 0px 16px var(--main), 0px 0px 32px var(--main);
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  -webkit-box-reflect: below -3px linear-gradient(transparent, #0005);
 }
 @keyframes blink {
   0%,
@@ -91,10 +75,10 @@ input:checked + label {
 @keyframes pulsate {
   0% {
     text-shadow: 0 0 2px #fff, 0 0 4px var(--main), 0 0 8px var(--main),
-      0 0 16px var(--main), 0 0 32px var(--main);
+      0 0 12px var(--main), 0 0 24px var(--main);
 
     box-shadow: 0 0 2px #fff, 0 0 4px var(--main), 0 0 8px var(--main),
-      0 0 16px var(--main), 0 0 32px var(--main);
+      0 0 12px var(--main), 0 0 24px var(--main);
   }
 
   100% {
@@ -133,7 +117,7 @@ pages styles
   width: 500%;
   height: 100%;
   transform: translateX(-00%);
-  transition: all 1s;
+  transition: all 0.3s ease-in-out;
 }
 .page {
   width: 100%;
@@ -153,18 +137,20 @@ pages styles
 }
 
 .page.one p:nth-child(1) {
-  letter-spacing: 5px;
-  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 6px;
 }
 .page.one p:nth-child(2) {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
+  line-height: 45px;
 }
 .page.one p:nth-child(2) span {
+  font-size: 50px;
   color: var(--main);
 }
-.page.one p:nth-child(3) {
+.page.one p:nth-child(4) {
   font-size: 40px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
