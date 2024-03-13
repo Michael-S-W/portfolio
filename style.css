@@ -180,7 +180,7 @@ pages styles
   animation: moving 30s linear infinite;
 }
 .news-bar p:hover {
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 @keyframes moving {
