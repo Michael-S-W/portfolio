@@ -179,23 +179,31 @@ li {
 .links a {
   border: 1px solid;
   border-radius: 5px;
-  animation: links-ani 5s ease-in-out infinite alternate-reverse;
+  animation: links-ani ease-in-out infinite alternate-reverse;
 }
-.links a:nth-child(1) i {
+.links a:nth-child(1) {
   color: white;
   border-color: white;
   box-shadow: 0 0 5px white;
+  animation-duration: 5s;
 }
 .links a:nth-child(2) {
   color: #25d366;
   border-color: #25d366;
   box-shadow: 0 0 5px #25d366;
+  animation-duration: 6s;
 }
 .links a:nth-child(3) {
   color: #0077b5;
   border-color: #0077b5;
   box-shadow: 0 0 5px #0077b5;
+  animation: links-ani 6s ease-in-out infinite alternate-reverse;
+  animation-duration: 4s;
 }
+.links a:hover {
+  animation-play-state: paused;
+}
+
 .links i {
   padding: 5px;
   font-size: 30px;
