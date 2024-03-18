@@ -104,6 +104,11 @@ pages styles
   border-radius: 10px;
   box-shadow: inset 0px 0px 5px var(--main), inset 0px 0px 10px var(--main);
 }
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
 .pages {
   display: flex;
   flex-wrap: nowrap;
@@ -221,12 +226,7 @@ pages styles
   font-weight: bold;
   color: var(--main);
 }
-ul {
-  list-style-type: none;
-}
-li {
-  padding-left: 10px;
-}
+
 .page.three {
   overflow-y: scroll;
 }
