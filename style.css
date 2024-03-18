@@ -22,7 +22,7 @@ body {
   max-width: 80vw;
   border-radius: 10px;
   margin: 20px;
-  padding: 20px;
+  padding: 0 20px;
   background-color: var(--darkgrey);
   box-shadow: 0px 0px 5px #03e9f4, 0px 0px 10px #03e9f4;
 }
@@ -110,7 +110,7 @@ pages styles
   flex-direction: row;
   align-items: center;
   color: white;
-  width: 400%;
+  width: 300%;
   height: 100%;
   transform: translateX(-00%);
   transition: all 0.3s ease-in-out;
@@ -162,6 +162,37 @@ pages styles
 .from-to {
   font-weight: normal;
 }
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links i {
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+  border: 1px solid;
+
+  /* color: var(--main); */
+}
+.links a:nth-child(1) i {
+  color: white;
+  border-color: white;
+}
+.links a:nth-child(2) {
+  color: #25d366;
+  border-color: #25d366;
+}
+.links a:nth-child(3) {
+  color: #0077b5;
+  border-color: #0077b5;
+}
+
+.links a i:hover {
+  color: var(--main);
+  border-color: var(--main);
+  box-shadow: 0 0 5px var(--main);
+}
+
 /**
     Bottom Bar
 */
@@ -182,6 +213,7 @@ pages styles
   white-space: nowrap;
   animation: moving 30s linear infinite;
 }
+
 /* .news-bar p:hover {
   animation-play-state: paused;
 } */
@@ -269,7 +301,7 @@ li {
 
 @media (max-width: 500px) {
   .container {
-    width: 340px;
+    width: 400px;
     height: fit-content;
   }
   label {
