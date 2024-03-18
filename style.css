@@ -176,8 +176,7 @@ li {
   padding: 5px;
   font-size: 30px;
   border: 1px solid;
-
-  /* color: var(--main); */
+  border-radius: 5px;
 }
 .links a:nth-child(1) i {
   color: white;
