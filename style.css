@@ -55,41 +55,43 @@ label {
 }
 
 input:checked + label {
-  animation: pulsate 1.5s linear infinite alternate-reverse;
+  animation: pulsate 0.9s linear infinite alternate-reverse;
+  animation: shake 1s linear forwards;
   background-color: var(--main);
   color: #050801;
   box-shadow: 0px 0px 4px var(--main), 0px 0px 4px var(--main),
     0px 0px 8px var(--main), 0px 0px 16px var(--main), 0px 0px 32px var(--main);
   /* -webkit-box-reflect: below -3px linear-gradient(transparent, #0005); */
 }
-@keyframes blink {
-  0%,
-  29%,
-  32%,
-  100% {
-    text-shadow: 0 0 2px #000000, 0 0 4px var(--main), 0 0 6px var(--main);
-    box-shadow: 0 0 2px #000000, 0 0 4px var(--main), 0 0 6px var(--main);
-  }
+@keyframes shake {
+  10%,
   30% {
-    text-shadow: 0 0 1px #000000, 0 0 2px var(--main), 0 0 3px var(--main);
-    box-shadow: 0 0 1px #000000, 0 0 2px var(--main), 0 0 3px var(--main);
+    transform: rotate(10deg);
+  }
+  0%,
+  20% {
+    transform: rotate(-10deg);
+  }
+  30%,
+  100% {
+    transform: none;
   }
 }
 @keyframes pulsate {
   0% {
-    text-shadow: 0 0 2px #fff, 0 0 4px var(--main), 0 0 8px var(--main),
-      0 0 12px var(--main), 0 0 24px var(--main);
+    text-shadow: 0 0 1px #fff, 0 0 2px var(--main), 0 0 4px var(--main),
+      0 0 6px var(--main), 0 0 12px var(--main);
 
-    box-shadow: 0 0 2px #fff, 0 0 4px var(--main), 0 0 8px var(--main),
-      0 0 12px var(--main), 0 0 24px var(--main);
+    box-shadow: 0 0 1px #fff, 0 0 2px var(--main), 0 0 4px var(--main),
+      0 0 6px var(--main), 0 0 12px var(--main);
   }
 
   100% {
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 12px var(--main),
-      0 0 24px var(--main), 0 0 48px var(--main);
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 9px var(--main),
+      0 0 18px var(--main), 0 0 36px var(--main);
 
-    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 12px var(--main),
-      0 0 24px var(--main), 0 0 48px var(--main);
+    box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 9px var(--main),
+      0 0 18px var(--main), 0 0 36px var(--main);
   }
 }
 
