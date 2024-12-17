@@ -1,0 +1,9 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+.dark{
+  background: rgb(80,80,80);
+  background: radial-gradient(circle, rgba(80,80,80,1) 0%, rgba(69,69,69,1) 25%, rgba(64,64,64,1) 50%, rgba(53,53,53,1) 75%, rgba(48,48,48,1) 100%);
+  color: white;
+}
