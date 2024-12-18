@@ -5,9 +5,9 @@ import Contact from '../pages/Contact'
 import Projects from '../pages/Projects'
 import './Navpage.css'
 
-function Navpage() {
+function Navpage({theme}) {
   return (
-    <div className='navpage'>
+    <div className='navpage' style={theme?{color:"white"}:{color:"white"}}>
       <div className='empty-div'></div>
       <div className='page-div'>
       <Routes>
