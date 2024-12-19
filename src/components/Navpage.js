@@ -7,7 +7,7 @@ import './Navpage.css'
 
 function Navpage({theme}) {
   return (
-    <div className='navpage' style={theme?{color:"white"}:{color:"white"}}>
+    <div className={theme?'navpage dark':'navpage'} style={theme?{color:"white"}:{color:"white"}}>
       <div className='empty-div'></div>
       <div className='page-div'>
       <Routes>

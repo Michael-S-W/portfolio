@@ -3,6 +3,8 @@
 }
 .dark{background: rgb(60,60,60);
   background: radial-gradient(circle, rgba(60,60,60,1) 0%, rgba(40,40,40,1) 100%);
+  background-attachment: fixed;
+  color: white;
 }
 
 @media (max-height: 563px) and (max-width: 1024px) {
