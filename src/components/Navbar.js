@@ -21,6 +21,8 @@ export default function Navbar({theme, setTheme}) {
         </NavLink>
         <NavLink className={theme?"link black":"link"} to={"/projects"}><span className='navbar-list-item'>Projects</span>
         </NavLink>
+        <NavLink className={theme?"link black":"link"} to={"/about"}><span className='navbar-list-item'>About</span>
+        </NavLink>
         <NavLink className={theme?"link black":"link"} to={"/contact"}><span className='navbar-list-item'>Contact</span>
         </NavLink>
         <button onClick={()=>setTheme(p=>!p)}>{theme?<span>🌞</span>:<span>🌚</span>}</button>
@@ -35,6 +37,14 @@ export default function Navbar({theme, setTheme}) {
   <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
   <path d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1m1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2z"/>
 </svg></span>
+        </NavLink>
+        <NavLink className={theme?"link black":"link"} to={"/about"}>
+          <span className='navbar-list-item'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-person" viewBox="0 0 16 16">
+  <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+  <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+</svg>
+          </span>
         </NavLink>
         <NavLink className={theme?"link black":"link"} to={"/contact"}><span className='navbar-list-item'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chat-dots" viewBox="0 0 16 16">
   <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>

@@ -46,7 +46,9 @@ iframe, h2{
   border: none;
   width: 100%;
   height: 100%;
-  zoom: 0.8;
+  zoom: 1;
+  background-color: rgb(228, 228, 228);
+  color: rgb(40, 40, 40);
 }
 h2{
   font-size: calc(30px  + 2vw);
@@ -70,7 +72,7 @@ h2{
   .project-iframe, h2{
     flex-basis: 1;
     width: 100%;
-    height: 500px;
+    height: 600px;
     zoom: 0.4;
   }
   .project-text a{
