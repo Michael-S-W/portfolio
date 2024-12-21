@@ -6,8 +6,6 @@ import { NavLink } from 'react-router'
 
 
 export default function Navbar({theme, setTheme}) {
-
-
   return (
     <div className={theme?'navbar dark':'navbar'}>
       <div className='navbar-logo'>

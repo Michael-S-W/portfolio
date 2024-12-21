@@ -93,7 +93,19 @@
 
 .home-logos img{
   width: 25%;
+  display: inline-block;
+  animation: h-waviy 2.5s infinite;
 }
+
+@keyframes h-waviy {
+  0%,40%,100% {
+    transform: translateX(-5px)
+  }
+  20% {
+    transform: translateX(5px)
+  }
+}
+
 
 @keyframes float {
   50% {

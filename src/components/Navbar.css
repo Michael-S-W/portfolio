@@ -13,6 +13,7 @@
   padding: 10px;
   box-shadow: 0 0 5px gray;
   z-index: 9999;
+  background-color: #EDEDED;
 }
 
 .navbar-logo{
@@ -94,14 +95,18 @@ img{
   .navbar-list.small-screens{
     display: flex;
   }
+  .navbar-list.small-screens a{
+    padding: 0 ;
+    zoom: 1.2;
+  }
   .navbar-list.main-div{
     display: none;
   }
 
-  /* .navbar-logo{
+  .navbar-logo{
     transform-origin: 0 50%;
-    transform: scale(0.8);
-  } */
+    transform: scale(0.9);
+  }
   .navbar-logo span{
     font-size: 28px;
     letter-spacing: -2px;

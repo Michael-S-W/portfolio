@@ -34,14 +34,14 @@ function Home() {
         <span>Front End Developer</span>
       </div>
       <div className='home-logos'>
-        <img src={htmlLogo}  alt='html'/>
-        <img src={cssLogo} alt='css'/>
-        <img src={jsLogo} alt='js'/>
-        <img src={jqueryLogo} alt='jquery'/>
-        <img src={bootstrapLogo} alt='bootstrap'/>
-        <img src={reactLogo} alt='react'/>
-        <img src={gitLogo} alt='git'/>
-        <img src={githubLogo} alt='github'/>
+        <img style={{'animationDelay':'0.125s'}} src={htmlLogo}  alt='html'/>
+        <img style={{'animationDelay':'0.25s'}} src={cssLogo} alt='css'/>
+        <img style={{'animationDelay':'0.375s'}} src={jsLogo} alt='js'/>
+        <img style={{'animationDelay':'0.5s'}} src={jqueryLogo} alt='jquery'/>
+        <img style={{'animationDelay':'0.625s'}} src={bootstrapLogo} alt='bootstrap'/>
+        <img style={{'animationDelay':'0.75s'}} src={reactLogo} alt='react'/>
+        <img style={{'animationDelay':'0.825s'}} src={gitLogo} alt='git'/>
+        <img style={{'animationDelay':'1s'}} src={githubLogo} alt='github'/>
       </div>
     </div>
   )

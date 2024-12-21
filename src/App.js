@@ -6,8 +6,10 @@ import { useState } from 'react';
 import { BrowserRouter } from 'react-router';
 import { createContext } from 'react';
 
- export const ThemeContext = createContext(null)
+export const ThemeContext = createContext(null)
+
 function App() {
+  
   const [theme, setTheme] = useState(true)
   return (
     <ThemeContext.Provider value={theme}>
