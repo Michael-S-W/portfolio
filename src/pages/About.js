@@ -186,7 +186,7 @@ function About() {
         <div className="experiance">
           <div>
             <p className="workExp">
-              Store In-Charge | Retail Sales | Customer Service
+              Store In-Charge | Retail Sales
             </p>
             <p>
               - Plus Express LLC (Dubai, Alain, Abu Dhabi, UAE) June 2020 - June
@@ -194,37 +194,41 @@ function About() {
             </p>
             <ul>
               <li>
-                Selling online through various applications (Instashop,
-                Elgrocer, Swan, Talabat, Noon, Amazon, and WhatsApp).
+                Inventory Controller and purchase for all needed stock, Controlling cash and store expenses. 
               </li>
-              <li>Updating Stock and prices on system and applications.</li>
+              <li>
+                Updating Stock and prices on system and applications.
+              </li>
               <li>
                 Recording and sending all details needed and daily sales
                 reports.
               </li>
               <li>
-                Controlling cash and store expenses. Inventory Controller and
-                purchase for all needed stock.
+                Selling online through various applications (Instashop, Elgrocer, Swan, Talabat, Noon, Amazon, and WhatsApp).
               </li>
             </ul>
             <hr></hr>
           </div>
           <div>
-            <p className="workExp">Admin, Accountant Assistant | Cashier</p>
+            <p className="workExp">Admin | Accountant Assistant</p>
             <p>- Café Bubble Lounge (Dubai, UAE) June 2016 - June 2020</p>
             <ul>
               <li>
-                Greet and assist visitors, taking orders and directing them to
-                appropriate personnel.
+                Documented business expenses and sales.
+              </li>
+              <li>
+                Preparing month-end, quarterly, and year-end closings.
+              </li>
+              <li>
+                Balanced reports submitting for approval and verification.
               </li>
               <li>
                 Produced and distributed invoices and financial documents.
               </li>
-              <li>Documented business expenses and sales.</li>
               <li>
-                Balanced reports submitting for approval and verification.
+                Greet and assist visitors, taking orders and directing them to
+                appropriate personnel.
               </li>
-              <li>Preparing month-end, quarterly, and year-end closings.</li>
             </ul>
             <hr></hr>
           </div>
@@ -232,11 +236,11 @@ function About() {
             <p className="workExp">Sales Representative</p>
             <p>- United Group (Assiut, Egypt) July 2015 - May 2016</p>
             <ul>
-              <li>Inform and support staff on media and marketing outcomes.</li>
               <li>
                 Compiled product, market, and customer data to forecast accurate
                 sales and profit projections.
               </li>
+              <li>Inform and support staff on media and marketing outcomes.</li>
             </ul>
             <hr></hr>
           </div>
@@ -244,6 +248,7 @@ function About() {
             <p className="workExp">Medical Representative</p>
             <p>- Al Nahar Hearing Aids (Assiut, Egypt) June 2013 - June 2015</p>
             <ul>
+              <li>Performing audiometry, molding, and adjusting devices</li>
               <li>
                 Arrange appointments with doctors, pharmacists, and medical
                 teams to raise awareness of the latest product launches.
@@ -252,7 +257,6 @@ function About() {
                 Follow up with customers after completed sales to assess
                 satisfaction and resolve any technical or service concerns.
               </li>
-              <li>Performing audiometry, molding, and adjusting devices</li>
             </ul>
             <hr></hr>
           </div>
