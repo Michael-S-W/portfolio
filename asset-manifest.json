@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5d6c37ff.css",
+    "main.js": "/portfolio/static/js/main.616358b5.js",
+    "static/media/ES6 Mahara-Tech.jpg": "/portfolio/static/media/ES6 Mahara-Tech.c494c36bcaaedddd01c3.jpg",
+    "static/media/TypeScript Mahara-Tech.jpg": "/portfolio/static/media/TypeScript Mahara-Tech.10262625bd3ac7d0ba57.jpg",
+    "static/media/HTML&CSS Mahara-Tech.jpg": "/portfolio/static/media/HTML&CSS Mahara-Tech.6dce59076d3a318ed651.jpg",
+    "static/media/Javascript Mahara-Tech.jpg": "/portfolio/static/media/Javascript Mahara-Tech.de58cd1b073cb4297f72.jpg",
+    "static/media/Ubuntu-BoldItalic.ttf": "/portfolio/static/media/Ubuntu-BoldItalic.6fe54aaa592aa54a8c88.ttf",
+    "static/media/Bootstrap-Edited-min.png": "/portfolio/static/media/Bootstrap-Edited-min.f366d38690e8536b1753.png",
+    "static/media/React-Edited-min.png": "/portfolio/static/media/React-Edited-min.0efc0f5e96b4bac1a63a.png",
+    "static/media/landing-img.png": "/portfolio/static/media/landing-img.0a30c74853d54481f9d5.png",
+    "static/media/JQuery-Edited-min.png": "/portfolio/static/media/JQuery-Edited-min.789cabe87ab0ca148d3b.png",
+    "static/media/HTML-Edited-min.png": "/portfolio/static/media/HTML-Edited-min.2aa63c6509c4ed14409a.png",
+    "static/media/JS-Edited-min.png": "/portfolio/static/media/JS-Edited-min.81b3405b9ac7e4bff981.png",
+    "static/media/CSS-Edited-min.png": "/portfolio/static/media/CSS-Edited-min.fbfe728fd65360ed23a8.png",
+    "static/media/Github-Edited-min.png": "/portfolio/static/media/Github-Edited-min.5b824f4f8d6a762e28de.png",
+    "static/media/logo-new.png": "/portfolio/static/media/logo-new.4a52b68cedc4261600a2.png",
+    "static/media/DancingScript-SemiBold.ttf": "/portfolio/static/media/DancingScript-SemiBold.e8406f3ab340a352f3ce.ttf",
+    "static/media/Git-Edited-min.png": "/portfolio/static/media/Git-Edited-min.451f861ec80c2595f3a5.png",
+    "index.html": "/portfolio/index.html",
+    "main.5d6c37ff.css.map": "/portfolio/static/css/main.5d6c37ff.css.map",
+    "main.616358b5.js.map": "/portfolio/static/js/main.616358b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d6c37ff.css",
+    "static/js/main.616358b5.js"
+  ]
+}
