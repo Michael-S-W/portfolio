@@ -86,6 +86,19 @@ form h3{
   font-size: 24px;
   background-color: rgba(0, 152, 179,1) ;
 }
+@media (max-width: 500px){
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .links a{
+    margin: 0 auto;
+  }
+}
 @media (max-width: 768px){
   .contact {
     width: 100vw;
