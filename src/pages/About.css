@@ -43,7 +43,7 @@
 .skills ul li,
 .courses li,
 .experiance li{
-  padding: 5px 0 0 5px ;
+  padding: 10px 0 0 5px ;
   list-style-type: circle;
   list-style-position: inside;
   text-align: left;
@@ -73,8 +73,11 @@
 .work-experiance *{
   text-align: left !important;
 }
+.workExp{
+  font-weight: 700;
+}
 
-.experiance h4{
+.experiance div p:nth-child(2){
   font-style: italic;
   font-weight: 600;
 }
@@ -87,7 +90,7 @@ margin: 10px 0;
 
   .about,
   .section{
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px;
   }
 
@@ -110,15 +113,27 @@ margin: 10px 0;
   align-items: flex-start;
   gap: 0;
 }
+.about,.section{
+  font-size: 16px;
+  line-height: 20px;
+}
 
 }
 @media (min-width: 769px){
   .about{
     width: 750px;
   }
+  .about,.section{
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 @media (min-width: 1200px){
 .about{
   width: 1000px;
+}
+.about,.section{
+  font-size: 20px;
+  line-height: 24px;
 }
 }

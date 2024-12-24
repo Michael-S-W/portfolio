@@ -64,7 +64,7 @@ function Contact() {
         </a>
       </div>
       <form onSubmit={submit} style={{colorStyle}}>
-        <label htmlFor='name-input-field' className='"name-input-field"'>Name:</label>
+        <label htmlFor='name-input-field' style={{colorStyle}}>Name:</label>
         <input type='text' name="entry.214400734" id="name-input-field" placeholder='Enter Your Name' value={formData['entry.214400734']} required onChange={(e)=>setFormData(p=>({...p,"entry.214400734":e.target.value}))}></input>
         <label htmlFor='company-input-field'>Company:</label>
         <input type='text' name="entry.917476425" id="company-input-field" placeholder='Company Name' value={formData['entry.917476425']} required onChange={(e)=>setFormData(p=>({...p,"entry.917476425":e.target.value}))}></input>
