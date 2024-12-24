@@ -14,7 +14,7 @@ function Navpage({theme}) {
       <Routes>
         <Route index element={<Home/>}/>
         <Route path='/' element={<Home/>}/>
-        <Route path='/portfolio' element={<Home/>}/>
+        <Route path='/portfolio/' element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
