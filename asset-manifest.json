@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c970fb6.css",
-    "main.js": "/portfolio/static/js/main.c8771d40.js",
+    "main.css": "/portfolio/static/css/main.ce71b7dc.css",
+    "main.js": "/portfolio/static/js/main.0d45153f.js",
     "static/media/ES6 Mahara-Tech.jpg": "/portfolio/static/media/ES6 Mahara-Tech.c494c36bcaaedddd01c3.jpg",
     "static/media/TypeScript Mahara-Tech.jpg": "/portfolio/static/media/TypeScript Mahara-Tech.10262625bd3ac7d0ba57.jpg",
     "static/media/HTML&CSS Mahara-Tech.jpg": "/portfolio/static/media/HTML&CSS Mahara-Tech.6dce59076d3a318ed651.jpg",
@@ -19,11 +19,11 @@
     "static/media/DancingScript-SemiBold.ttf": "/portfolio/static/media/DancingScript-SemiBold.e8406f3ab340a352f3ce.ttf",
     "static/media/Git-Edited-min.png": "/portfolio/static/media/Git-Edited-min.451f861ec80c2595f3a5.png",
     "index.html": "/portfolio/index.html",
-    "main.4c970fb6.css.map": "/portfolio/static/css/main.4c970fb6.css.map",
-    "main.c8771d40.js.map": "/portfolio/static/js/main.c8771d40.js.map"
+    "main.ce71b7dc.css.map": "/portfolio/static/css/main.ce71b7dc.css.map",
+    "main.0d45153f.js.map": "/portfolio/static/js/main.0d45153f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c970fb6.css",
-    "static/js/main.c8771d40.js"
+    "static/css/main.ce71b7dc.css",
+    "static/js/main.0d45153f.js"
   ]
 }
