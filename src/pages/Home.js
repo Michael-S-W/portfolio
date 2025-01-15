@@ -29,7 +29,6 @@ function Home() {
           <span style={{'animationDelay':'0.5s'}}>a</span>
           <span style={{'animationDelay':'0.6s'}}>e</span>
           <span style={{'animationDelay':'0.7s'}}>l</span>
-          ,
         </p>
         <span>Front End Developer</span>
       </div>
