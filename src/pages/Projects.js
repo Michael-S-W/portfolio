@@ -31,6 +31,7 @@ function Projects() {
 
   return (
     <div className='projects'>
+      <h1 style={theme?{color:"white"}:{color:"black"}}>Projects</h1>
       <div className='project' >
       <RotatingLines
         visible={!github}

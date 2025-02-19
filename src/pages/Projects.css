@@ -13,7 +13,11 @@ text-align: left;
 text-wrap: wrap;
 margin: 0 auto auto 0;
 }
-
+.projects h1{
+  font-family: cursive;
+  text-align: center;
+  margin: 10px;
+}
 .project>div{
   margin: 0 2px;
 }
@@ -54,6 +58,8 @@ iframe, .projects>h2{
   background-color: rgb(228, 228, 228);
   color: rgb(40, 40, 40);
 }
+
+
 .projects>h2{
   font-size: calc(30px  + 2vw);
   border: 1px solid red;
@@ -89,6 +95,7 @@ iframe, .projects>h2{
     text-align: center;
     padding: 3px 10px;  
   }
+  
 }
 
 

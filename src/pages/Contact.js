@@ -36,6 +36,7 @@ function Contact() {
   const colorStyle = theme?{color: "white"}:{color:"black"}
   return (
     <div className='contact'>
+      <h1 style={theme?{color:"white"}:{color:"black"}}>Contact Me</h1>
       <div className="links" >
         <a href="https://github.com/Michael-S-W" rel="noreferrer" target='_blank' style={colorStyle}>
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

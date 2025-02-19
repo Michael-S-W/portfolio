@@ -156,10 +156,6 @@
 }
 
 @media (min-width: 890px) {
-  .home-text p{
-    /* width: 100%;
-    font-size: 3vw; */
-  }
 
   #my-name {
     font-size: 10vw;

@@ -23,8 +23,8 @@ function Home() {
         <p>Hi, I'm </p>
         <p id='my-name'>
           <span style={{'animationDelay':'0.1s'}}>M</span>
-          <span style={{'animationDelay':'0.2s'}}>c</span>
-          <span style={{'animationDelay':'0.3s'}}>i</span>
+          <span style={{'animationDelay':'0.2s'}}>i</span>
+          <span style={{'animationDelay':'0.3s'}}>c</span>
           <span style={{'animationDelay':'0.4s'}}>h</span>
           <span style={{'animationDelay':'0.5s'}}>a</span>
           <span style={{'animationDelay':'0.6s'}}>e</span>

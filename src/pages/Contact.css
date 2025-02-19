@@ -4,6 +4,12 @@
   align-items: center;
   flex-direction: column;
 }
+
+.contact h1{
+  font-family: cursive;
+  text-align: center;
+  margin: 10px;
+}
 .links{
   padding: 30px 0 0 0;
   width: 100%;
