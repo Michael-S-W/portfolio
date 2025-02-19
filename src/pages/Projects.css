@@ -13,11 +13,7 @@ text-align: left;
 text-wrap: wrap;
 margin: 0 auto auto 0;
 }
-.projects h1{
-  font-family: cursive;
-  text-align: center;
-  margin: 10px;
-}
+
 .project>div{
   margin: 0 2px;
 }
